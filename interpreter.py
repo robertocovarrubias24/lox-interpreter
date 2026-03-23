@@ -1,3 +1,10 @@
+# This interpreter was developed with assistance from ChatGPT:
+# https://chat.openai.com/
+# Design and structure are based on concepts from "Crafting Interpreters"
+# by Robert Nystrom.
+# All code was reviewed, tested, and understood by the author.
+
+
 from expr import Binary, Grouping, Literal, Unary, Variable, Assign, Logical, Call
 from stmt import (
     ExpressionStmt,
